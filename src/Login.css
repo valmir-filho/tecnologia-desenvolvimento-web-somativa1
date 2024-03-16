@@ -1,0 +1,58 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 40px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 100px auto;
+  }
+  
+  .login-container h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .login-container input[type="email"],
+  .login-container input[type="password"] {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: calc(100% - 30px);
+    box-sizing: border-box; /* This ensures padding doesn't affect overall width */
+  }
+  
+  .login-container input[type="email"]:focus,
+  .login-container input[type="password"]:focus {
+    border-color: #555;
+    outline: none;
+  }
+  
+  .login-container button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #5C6BC0;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .login-container button:hover {
+    background-color: #3F51B5;
+  }
+  
+  .login-container label {
+    color: #333;
+    margin-top: 20px;
+  }
+  
